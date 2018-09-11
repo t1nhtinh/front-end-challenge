@@ -1,0 +1,92 @@
+.card {
+ 
+    box-shadow: 1px 1px 5px #0808085e;
+    border: none; 
+    font-size: smaller;
+}
+
+.circle{   
+    border-radius: 50%;  
+    width: 50px;
+    height: 50px;
+    font-size: .33rem;
+    line-height: .4rem;
+    text-align: center;
+}
+
+.blue-cir {
+    border: 2px solid #f3f3f3;
+    border-top: 3px solid #3498db;
+    border-right: 3px solid #3498db;
+    border-bottom: 3px solid #3498db;
+}
+
+.blue {
+    color: #3498db;
+}
+
+.light-blue-cir {
+    border: 2px solid #d0e8f6;
+    border-top: 3px solid #3ba0da;
+    border-right: 3px solid #3ba0da;
+    border-bottom: 3px solid #3ba0da;
+}
+
+.light-blue{
+    color: #3ba0da
+}
+.pur-cir {
+    border: 2px solid #e8d8f7;
+    border-top: 3px solid #9a57dd;
+    border-right: 3px solid #9a57dd;
+    border-bottom: 3px solid #9a57dd;
+}
+
+.pur {
+    color: #9a57dd
+}
+
+.light-pur-cir {
+    border: 2px solid #edd9f4;
+    border-top: 3px solid #ba6fd7;
+    border-right: 3px solid #ba6fd7;
+    border-bottom: 3px solid #ba6fd7;
+}
+
+.light-pur {
+    color: #ba6fd7
+}
+
+
+.text-pos {
+    position: relative;
+    top: 25%;
+    font-size:smaller;
+}
+
+.card-block{
+    height: 100%
+}
+.right-bord{
+    border-right: 1px solid #ccc;
+}
+
+.btm-bord {
+    border-bottom: 1px solid #ccc;
+}
+
+.data-header {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.dis-block{
+    display: block;
+    width: auto;
+   
+}
+
+.green {
+    font-size:medium;
+    color: #34C26D
+}

@@ -1,0 +1,23 @@
+.sidenav-content{
+    margin-top: 20%;
+}
+
+.navlink{
+    color:white !important;
+    font-weight: 100 ;
+    text-transform: uppercase;
+    padding: 5px 20px; 
+    font-size: .5rem;
+    display: inline-block;
+    border-radius: .125rem 0 0 .125rem;
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+    width: 100%;
+   
+}
+
+.navlink.active{
+    border-radius: 0;
+    background-image: linear-gradient(to right, #00000057 0% , #2193f900 26%) !important;
+}

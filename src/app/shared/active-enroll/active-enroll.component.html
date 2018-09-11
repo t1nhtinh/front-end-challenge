@@ -1,0 +1,61 @@
+<div class="row">
+    <div class="col-xs-12 col-sm-9 ">
+        <div class="card">         
+            <div class="card-block">
+                <span>Active Enrollments </span>       
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 right-bord">                     
+                        <canvas baseChart width="auto" height="auto"
+                                    [datasets]="lineChartData"
+                                    [labels]="lineChartLabels"
+                                    [options]="lineChartOptions"
+                                    [colors]="lineChartColors"
+                                    [legend]="lineChartLegend"
+                                    [chartType]="lineChartType"
+                                    (chartHover)="chartHovered($event)"
+                                    (chartClick)="chartClicked($event)"></canvas>                                                     
+                    </div>
+                    <div class="col-xs-12 col-sm-3 right-bord" style="margin: 0px auto">
+                        <span class="data-header"><span class="green">400</span> Total Enrolled</span>                  
+                        <div class="row" style="margin: 0px auto 15px;">
+                            <div class="col-xs-12 col-sm-6">                                                                           
+                                <div class="circle blue-cir">
+                                    <span class="text-pos dis-block"><span class="blue">320</span></span>
+                                    <span class="text-pos dis-block">Qualified</span>
+                                </div>                                      
+                            </div>
+                            <div class="col-xs-12 col-sm-6">                                                                                      
+                                <div class="circle light-blue-cir">
+                                    <span class="text-pos dis-block "><span class="light-blue">300</span></span>
+                                    <span class="text-pos dis-block ">Daily Journals</span>
+                                </div>               
+                            </div>
+                        </div>
+                        <div class="row" style="margin: 0px auto">
+                            <div class="col-xs-12 col-sm-6">                                                              
+                                <div class="circle pur-cir">
+                                    <span class="text-pos dis-block "><span class="pur">300</span></span>
+                                    <span class="text-pos dis-block ">Consented</span>
+                                </div>    
+                            </div>
+                            <div class="col-xs-12 col-sm-6">                                                                                   
+                                <div class="circle light-pur-cir">
+                                    <span class="text-pos dis-block"><span class="light-pur">150</span></span>
+                                    <span class="text-pos dis-block">Device Readings</span>
+                                </div>    
+                            </div>
+                        </div>
+                                      
+                    </div>
+                    <div class="col-xs-12 col-sm-2 ">                                     
+                        <span class="data-header"><span class="green">8</span> Sites</span>
+                        <span class="dis-block btm-bord">Rome, Italy</span>
+                        <span class="dis-block btm-bord">Michigan, USA</span>
+                        <span class="dis-block btm-bord">Beijing, China</span>
+                        <span class="dis-block btm-bord">San Diego, USA</span>
+                        <span class="dis-block">Stokholm, Norway</span>                                                                      
+                </div>       
+            </div>
+        </div>
+    </div>
+</div>
